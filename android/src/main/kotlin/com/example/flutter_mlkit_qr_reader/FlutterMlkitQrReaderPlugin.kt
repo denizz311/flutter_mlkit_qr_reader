@@ -1,4 +1,4 @@
-package com.example.flutter_mlkit_qr_reader
+package com.denizz311.flutter_mlkit_qr_reader
 
 import androidx.annotation.NonNull
 

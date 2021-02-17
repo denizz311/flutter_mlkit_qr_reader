@@ -1,4 +1,4 @@
-group 'com.example.flutter_mlkit_qr_reader'
+group 'com.denizz311.flutter_mlkit_qr_reader'
 version '1.0-SNAPSHOT'
 
 buildscript {
