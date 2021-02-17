@@ -1,0 +1,1 @@
+# flutter_mlkit_qr_reader
