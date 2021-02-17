@@ -28,7 +28,7 @@ flutter:
   plugin:
     platforms:
       android:
-        package: com.denizz311.flutter_mlkit_qr_reader
+        package: dev.denizz311.flutter_mlkit_qr_reader
         pluginClass: FlutterMlkitQrReaderPlugin
       ios:
         pluginClass: FlutterMlkitQrReaderPlugin
