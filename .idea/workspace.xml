@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="229b6b3f-6ebd-4fb6-b1ed-a05771ad56f2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/kotlinScripting.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/kotlin/dev/denizz311/flutter_mlkit_qr_reader/BarcodeScanningActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/kotlin/dev/denizz311/flutter_mlkit_qr_reader/MLKitVisionImage.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/lib/qr_reader_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/pubspec.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/flutter_mlkit_qr_reader.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/flutter_mlkit_qr_reader.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/src/main/kotlin/com/denizz311/flutter_mlkit_qr_reader/BarcodeScanningActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/src/main/kotlin/com/denizz311/flutter_mlkit_qr_reader/FlutterMlkitQrReaderPlugin.kt" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/kotlin/dev/denizz311/flutter_mlkit_qr_reader/FlutterMlkitQrReaderPlugin.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/src/main/kotlin/com/denizz311/flutter_mlkit_qr_reader/MLKitVisionImage.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/example/android/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/app/src/main/kotlin/com/example/flutter_mlkit_qr_reader_example/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/example/android/app/src/main/kotlin/dev/denizz311/flutter_mlkit_qr_reader_example/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/Runner.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Runner.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/example/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flutter_mlkit_qr_reader.iml" beforeDir="false" afterPath="$PROJECT_DIR$/flutter_mlkit_qr_reader.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/flutter_mlkit_qr_reader.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/flutter_mlkit_qr_reader.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[43331563]" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="dart.analysis.tool.window.force.activate" value="true" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="io.flutter.reload.alreadyRun" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="1">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="183" y="95" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1613653121448">
+      <screen x="0" y="25" width="1440" height="822" />
+    </state>
+    <state x="183" y="95" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1440.822/-480.-1055.1920.1055@0.25.1440.822" timestamp="1613653121448" />
+    <state x="456" y="230" key="#com.intellij.ide.util.TreeFileChooserDialog" timestamp="1613653088562">
+      <screen x="0" y="25" width="1440" height="822" />
+    </state>
+    <state x="456" y="230" key="#com.intellij.ide.util.TreeFileChooserDialog/0.25.1440.822/-480.-1055.1920.1055@0.25.1440.822" timestamp="1613653088562" />
+    <state x="475" y="275" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1613659356614">
+      <screen x="0" y="25" width="1440" height="822" />
+    </state>
+    <state x="475" y="275" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.25.1440.822/-480.-1055.1920.1055@0.25.1440.822" timestamp="1613659356614" />
+    <state width="1398" height="539" key="GridCell.Tab.0.bottom" timestamp="1613659851960">
+      <screen x="0" y="25" width="1440" height="822" />
+    </state>
+    <state width="1398" height="539" key="GridCell.Tab.0.bottom/0.25.1440.822/-480.-1055.1920.1055@0.25.1440.822" timestamp="1613659851960" />
+    <state width="1398" height="539" key="GridCell.Tab.0.center" timestamp="1613659851959">
+      <screen x="0" y="25" width="1440" height="822" />
+    </state>
+    <state width="1398" height="539" key="GridCell.Tab.0.center/0.25.1440.822/-480.-1055.1920.1055@0.25.1440.822" timestamp="1613659851959" />
+    <state width="1398" height="539" key="GridCell.Tab.0.left" timestamp="1613659851959">
+      <screen x="0" y="25" width="1440" height="822" />
+    </state>
+    <state width="1398" height="539" key="GridCell.Tab.0.left/0.25.1440.822/-480.-1055.1920.1055@0.25.1440.822" timestamp="1613659851959" />
+    <state width="1398" height="539" key="GridCell.Tab.0.right" timestamp="1613659851960">
+      <screen x="0" y="25" width="1440" height="822" />
+    </state>
+    <state width="1398" height="539" key="GridCell.Tab.0.right/0.25.1440.822/-480.-1055.1920.1055@0.25.1440.822" timestamp="1613659851960" />
+    <state x="235" y="72" key="SettingsEditor" timestamp="1613659267189">
+      <screen x="0" y="25" width="1440" height="822" />
+    </state>
+    <state x="235" y="72" key="SettingsEditor/0.25.1440.822/-480.-1055.1920.1055@0.25.1440.822" timestamp="1613659267189" />
+    <state x="423" y="182" width="591" height="508" key="find.popup" timestamp="1613653335658">
+      <screen x="0" y="25" width="1440" height="822" />
+    </state>
+    <state x="423" y="182" width="591" height="508" key="find.popup/0.25.1440.822/-480.-1055.1920.1055@0.25.1440.822" timestamp="1613653335658" />
+  </component>
+</project>

@@ -1,8 +1,10 @@
-import 'package:flutter/material.dart';
 import 'dart:async';
 
+import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_mlkit_qr_reader/flutter_mlkit_qr_reader.dart';
+
+import 'qr_reader_screen.dart';
 
 void main() {
   runApp(MyApp());
@@ -45,12 +47,26 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: Scaffold(
-        appBar: AppBar(
-          title: const Text('Plugin example app'),
-        ),
-        body: Center(
-          child: Text('Running on: $_platformVersion\n'),
+      home: Builder(
+        builder: (context) => Scaffold(
+          appBar: AppBar(
+            title: const Text('Plugin example app'),
+          ),
+          body: Column(
+            children: [
+              Center(
+                child: Text('Running on: $_platformVersion\n'),
+              ),
+              Center(
+                child: RaisedButton(
+                  onPressed: () => Navigator.of(context).push(MaterialPageRoute(
+                    builder: (context) => QrReaderScreen(),
+                  )),
+                  child: Text('Analysis'),
+                ),
+              ),
+            ],
+          ),
         ),
       ),
     );
