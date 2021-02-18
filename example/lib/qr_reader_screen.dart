@@ -24,7 +24,7 @@ class _QrReaderScreenState extends State<QrReaderScreen> {
   var _processImageDurationMs = 0.0;
   final _previewImage = image.Image(224, 224);
 
-  var _detectedObjects = '';
+  var _detectedObjects = [];
 
   final _convertedAnalysisImageBytes = StreamController<Uint8List>();
 
@@ -38,7 +38,6 @@ class _QrReaderScreenState extends State<QrReaderScreen> {
 
   final _detector = FlutterMlkitQrReader(
     bitmapSize: const Size(_bitmapWidth, _bitmapHeight),
-    // enableMultipleObjects: true,
   );
 
   Future<void> _runDetection() async {
@@ -114,8 +113,8 @@ class _QrReaderScreenState extends State<QrReaderScreen> {
 
   @override
   void dispose() {
-    _detector.dispose();
     super.dispose();
+    _detector.dispose();
   }
 
   @override
@@ -216,7 +215,7 @@ class _QrReaderScreenState extends State<QrReaderScreen> {
         child: Stack(
           fit: StackFit.expand,
           children: [
-            Text(_detectedObjects),
+            Text(_detectedObjects.toString()),
           ],
         ),
       ),

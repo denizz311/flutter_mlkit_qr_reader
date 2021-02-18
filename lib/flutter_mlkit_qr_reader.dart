@@ -7,8 +7,9 @@ import 'package:flutter/services.dart';
 class FlutterMlkitQrReader {
   FlutterMlkitQrReader({
     @required this.bitmapSize,
-  });
+  }) : assert(bitmapSize != null);
 
+  /// Usually is 192x192
   final Size bitmapSize;
 
   static const MethodChannel _channel =
@@ -34,18 +35,22 @@ class FlutterMlkitQrReader {
     }
   }
 
-  Future<String> process(Uint8List rgbBytes) async {
-    final id = await _idCompleter.future;
-    final results = await _channel.invokeMethod<String>('processImage', {
-      'detectorId': id,
-      'rgbBytes': rgbBytes,
-    });
+  Future<List<String>> process(Uint8List rgbBytes) async {
+    try {
+      final id = await _idCompleter.future;
+      final results = await _channel.invokeMethod<List>('processImage', {
+        'detectorId': id,
+        'rgbBytes': rgbBytes,
+      });
 
-    if (results.isNotEmpty) {
-      debugPrint('results.isNotEmpty');
+      if (results?.isNotEmpty == true) {
+        debugPrint('results.isNotEmpty');
+      }
+
+      return results.map((e) => e.toString()).toList();
+    } catch (e) {
+      return [e.toString()];
     }
-
-    return results;
   }
 
   Future<void> dispose() async {
