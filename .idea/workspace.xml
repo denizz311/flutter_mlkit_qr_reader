@@ -21,13 +21,10 @@
   <component name="ChangeListManager">
     <list default="true" id="229b6b3f-6ebd-4fb6-b1ed-a05771ad56f2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/kotlin/dev/denizz311/flutter_mlkit_qr_reader/FlutterMlkitQrReaderPlugin.kt" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/kotlin/dev/denizz311/flutter_mlkit_qr_reader/FlutterMlkitQrReaderPlugin.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/Podfile" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Podfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/example/ios/Runner.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Runner.xcodeproj/project.pbxproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/Runner.xcworkspace/contents.xcworkspacedata" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Runner.xcworkspace/contents.xcworkspacedata" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/Runner/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Runner/Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/lib/qr_reader_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/lib/qr_reader_screen.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ios/Classes/SwiftFlutterMlkitQrReaderPlugin.swift" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Classes/SwiftFlutterMlkitQrReaderPlugin.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/flutter_mlkit_qr_reader.podspec" beforeDir="false" afterPath="$PROJECT_DIR$/ios/flutter_mlkit_qr_reader.podspec" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,13 +76,25 @@
       <option name="project" value="LOCAL" />
       <updated>1613670632968</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="detection add ios">
+      <created>1613735757992</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1613735757993</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="1">
+          <value>
+            <State />
+          </value>
+        </entry>
+        <entry key="MAIN">
           <value>
             <State />
           </value>
@@ -99,7 +108,8 @@
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="update plugin" />
     <MESSAGE value="detection complete" />
-    <option name="LAST_COMMIT_MESSAGE" value="detection complete" />
+    <MESSAGE value="detection add ios" />
+    <option name="LAST_COMMIT_MESSAGE" value="detection add ios" />
   </component>
   <component name="WindowStateProjectService">
     <state x="183" y="95" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1613653121448">
@@ -118,58 +128,49 @@
       <screen x="0" y="25" width="1440" height="822" />
     </state>
     <state x="475" y="275" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.25.1440.822/-480.-1055.1920.1055@0.25.1440.822" timestamp="1613659356614" />
-    <state x="0" y="25" width="931" height="822" key="CommitChangelistDialog2" timestamp="1613670632643">
+    <state x="-480" y="-1055" width="931" height="822" key="CommitChangelistDialog2" timestamp="1613735757755">
+      <screen x="-480" y="-1055" width="1920" height="1055" />
+    </state>
+    <state x="-480" y="-1055" key="CommitChangelistDialog2/0.25.1440.822/-480.-1055.1920.1055@-480.-1055.1920.1055" timestamp="1613735757755" />
+    <state x="0" y="25" width="931" height="822" key="CommitChangelistDialog2/0.25.1440.822/-480.-1055.1920.1055@0.25.1440.822" timestamp="1613670632643" />
+    <state width="1014" height="334" key="GridCell.Tab.0.bottom" timestamp="1613752566130">
       <screen x="0" y="25" width="1440" height="822" />
     </state>
-    <state x="0" y="25" width="931" height="822" key="CommitChangelistDialog2/0.25.1440.822/-480.-1055.1920.1055@0.25.1440.822" timestamp="1613670632643" />
-    <state width="1398" height="334" key="GridCell.Tab.0.bottom" timestamp="1613735439795">
-      <screen x="-480" y="-1055" width="1920" height="1055" />
+    <state width="1398" height="471" key="GridCell.Tab.0.bottom/0.25.1440.822/-480.-1055.1920.1055@-480.-1055.1920.1055" timestamp="1613735793375" />
+    <state width="1014" height="334" key="GridCell.Tab.0.bottom/0.25.1440.822/-480.-1055.1920.1055@0.25.1440.822" timestamp="1613752566130" />
+    <state width="1014" height="334" key="GridCell.Tab.0.center" timestamp="1613752566129">
+      <screen x="0" y="25" width="1440" height="822" />
     </state>
-    <state width="1398" height="334" key="GridCell.Tab.0.bottom/0.25.1440.822/-480.-1055.1920.1055@-480.-1055.1920.1055" timestamp="1613735439795" />
-    <state width="1398" height="471" key="GridCell.Tab.0.bottom/0.25.1440.822/-480.-1055.1920.1055@0.25.1440.822" timestamp="1613732296135" />
-    <state width="1398" height="334" key="GridCell.Tab.0.center" timestamp="1613735439794">
-      <screen x="-480" y="-1055" width="1920" height="1055" />
+    <state width="1398" height="471" key="GridCell.Tab.0.center/0.25.1440.822/-480.-1055.1920.1055@-480.-1055.1920.1055" timestamp="1613735793374" />
+    <state width="1014" height="334" key="GridCell.Tab.0.center/0.25.1440.822/-480.-1055.1920.1055@0.25.1440.822" timestamp="1613752566129" />
+    <state width="1014" height="334" key="GridCell.Tab.0.left" timestamp="1613752566129">
+      <screen x="0" y="25" width="1440" height="822" />
     </state>
-    <state width="1398" height="334" key="GridCell.Tab.0.center/0.25.1440.822/-480.-1055.1920.1055@-480.-1055.1920.1055" timestamp="1613735439794" />
-    <state width="1398" height="471" key="GridCell.Tab.0.center/0.25.1440.822/-480.-1055.1920.1055@0.25.1440.822" timestamp="1613732296134" />
-    <state width="1398" height="334" key="GridCell.Tab.0.left" timestamp="1613735439793">
-      <screen x="-480" y="-1055" width="1920" height="1055" />
+    <state width="1398" height="471" key="GridCell.Tab.0.left/0.25.1440.822/-480.-1055.1920.1055@-480.-1055.1920.1055" timestamp="1613735793373" />
+    <state width="1014" height="334" key="GridCell.Tab.0.left/0.25.1440.822/-480.-1055.1920.1055@0.25.1440.822" timestamp="1613752566129" />
+    <state width="1014" height="334" key="GridCell.Tab.0.right" timestamp="1613752566130">
+      <screen x="0" y="25" width="1440" height="822" />
     </state>
-    <state width="1398" height="334" key="GridCell.Tab.0.left/0.25.1440.822/-480.-1055.1920.1055@-480.-1055.1920.1055" timestamp="1613735439793" />
-    <state width="1398" height="471" key="GridCell.Tab.0.left/0.25.1440.822/-480.-1055.1920.1055@0.25.1440.822" timestamp="1613732296133" />
-    <state width="1398" height="334" key="GridCell.Tab.0.right" timestamp="1613735439794">
-      <screen x="-480" y="-1055" width="1920" height="1055" />
-    </state>
-    <state width="1398" height="334" key="GridCell.Tab.0.right/0.25.1440.822/-480.-1055.1920.1055@-480.-1055.1920.1055" timestamp="1613735439794" />
-    <state width="1398" height="471" key="GridCell.Tab.0.right/0.25.1440.822/-480.-1055.1920.1055@0.25.1440.822" timestamp="1613732296134" />
+    <state width="1398" height="471" key="GridCell.Tab.0.right/0.25.1440.822/-480.-1055.1920.1055@-480.-1055.1920.1055" timestamp="1613735793375" />
+    <state width="1014" height="334" key="GridCell.Tab.0.right/0.25.1440.822/-480.-1055.1920.1055@0.25.1440.822" timestamp="1613752566130" />
     <state x="-167" y="-995" key="SettingsEditor" timestamp="1613725290543">
       <screen x="-480" y="-1055" width="1920" height="1055" />
     </state>
     <state x="-167" y="-995" key="SettingsEditor/0.25.1440.822/-480.-1055.1920.1055@-480.-1055.1920.1055" timestamp="1613725290543" />
     <state x="235" y="72" key="SettingsEditor/0.25.1440.822/-480.-1055.1920.1055@0.25.1440.822" timestamp="1613660099857" />
-    <state x="320" y="154" key="Vcs.Push.Dialog.v2" timestamp="1613670634223">
-      <screen x="0" y="25" width="1440" height="822" />
+    <state x="-53" y="-889" key="Vcs.Push.Dialog.v2" timestamp="1613735759615">
+      <screen x="-480" y="-1055" width="1920" height="1055" />
     </state>
+    <state x="-53" y="-889" key="Vcs.Push.Dialog.v2/0.25.1440.822/-480.-1055.1920.1055@-480.-1055.1920.1055" timestamp="1613735759615" />
     <state x="320" y="154" key="Vcs.Push.Dialog.v2/0.25.1440.822/-480.-1055.1920.1055@0.25.1440.822" timestamp="1613670634223" />
     <state width="720" height="414" key="XDebugger.FullValuePopup" timestamp="1613665654297">
       <screen x="0" y="25" width="1440" height="822" />
     </state>
     <state width="720" height="414" key="XDebugger.FullValuePopup/0.25.1440.822/-480.-1055.1920.1055@0.25.1440.822" timestamp="1613665654297" />
-    <state x="84" y="-853" width="788" height="652" key="find.popup" timestamp="1613729263734">
-      <screen x="-480" y="-1055" width="1920" height="1055" />
+    <state x="423" y="182" width="614" height="508" key="find.popup" timestamp="1613747177965">
+      <screen x="0" y="25" width="1440" height="822" />
     </state>
     <state x="84" y="-853" width="788" height="652" key="find.popup/0.25.1440.822/-480.-1055.1920.1055@-480.-1055.1920.1055" timestamp="1613729263734" />
-    <state x="423" y="182" width="591" height="508" key="find.popup/0.25.1440.822/-480.-1055.1920.1055@0.25.1440.822" timestamp="1613653335658" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="Dart">
-          <url>file://$PROJECT_DIR$/lib/flutter_mlkit_qr_reader.dart</url>
-          <line>30</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <state x="423" y="182" width="614" height="508" key="find.popup/0.25.1440.822/-480.-1055.1920.1055@0.25.1440.822" timestamp="1613747177965" />
   </component>
 </project>

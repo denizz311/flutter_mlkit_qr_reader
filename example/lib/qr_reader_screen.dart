@@ -113,8 +113,8 @@ class _QrReaderScreenState extends State<QrReaderScreen> {
 
   @override
   void dispose() {
-    super.dispose();
     _detector.dispose();
+    super.dispose();
   }
 
   @override

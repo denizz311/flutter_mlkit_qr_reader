@@ -24,6 +24,7 @@ public class SwiftFlutterMlkitQrReaderPlugin: NSObject, FlutterPlugin {
   }
 
   public func handle(_ call: FlutterMethodCall, result: @escaping FlutterResult) {
+    NSLog("call: \(call.method)")
     switch call.method {
     case "getPlatformVersion":
         result("IPhone")
