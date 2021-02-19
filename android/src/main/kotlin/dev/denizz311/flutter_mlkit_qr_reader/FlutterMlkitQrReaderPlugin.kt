@@ -7,20 +7,19 @@ import android.os.Looper
 import android.util.Size
 import androidx.annotation.NonNull
 import androidx.lifecycle.Lifecycle
-import androidx.lifecycle.LifecycleOwner
-import com.google.android.gms.tasks.Task
 
 import io.flutter.embedding.engine.plugins.FlutterPlugin
 import io.flutter.plugin.common.MethodCall
 import io.flutter.plugin.common.MethodChannel
 import io.flutter.plugin.common.MethodChannel.MethodCallHandler
 import io.flutter.plugin.common.MethodChannel.Result
+
 import com.google.mlkit.vision.barcode.Barcode
 import com.google.mlkit.vision.barcode.BarcodeScanner
 import com.google.mlkit.vision.barcode.BarcodeScannerOptions
 import com.google.mlkit.vision.barcode.BarcodeScanning
 import com.google.mlkit.vision.common.InputImage
-import io.flutter.embedding.engine.plugins.activity.ActivityPluginBinding
+
 import java.util.concurrent.Executor
 import java.util.concurrent.Executors
 
@@ -34,8 +33,6 @@ class FlutterMlkitQrReaderPlugin: FlutterPlugin, MethodCallHandler {
   private val detectorBitmaps = mutableMapOf<Int, Bitmap>()
   private val detectorBitmapBuffers = mutableMapOf<Int, IntArray>()
   private val executors = mutableMapOf<Int, Executor>()
-
-  private lateinit var binding: FlutterPlugin.FlutterPluginBinding
 
   override fun onAttachedToEngine(@NonNull flutterPluginBinding: FlutterPlugin.FlutterPluginBinding) {
     channel = MethodChannel(flutterPluginBinding.binaryMessenger, "flutter_mlkit_qr_reader")
